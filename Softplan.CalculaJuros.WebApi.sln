@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.CalculaJuros.WebApi", "Softplan.CalculaJuros.WebApi\Softplan.CalculaJuros.WebApi.csproj", "{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.CalculaJuros.Application", "Softplan.CalculaJuros.Application\Softplan.CalculaJuros.Application.csproj", "{329C0E98-7D9A-4176-9160-B0A5A3E774D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{8CB47B6E-8478-4F54-902A-0D7EF0DFAE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.CalculaJuros.Infrastructure", "Softplan.CalculaJuros.Infrastructure\Softplan.CalculaJuros.Infrastructure.csproj", "{8E2CC0C6-BC54-4428-BB14-27B5A0954694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.CalculaJuros.Tests", "Softplan.CalculaJuros.Tests\Softplan.CalculaJuros.Tests.csproj", "{6442FC86-19C8-4520-9F93-A036F7564049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329C0E98-7D9A-4176-9160-B0A5A3E774D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329C0E98-7D9A-4176-9160-B0A5A3E774D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329C0E98-7D9A-4176-9160-B0A5A3E774D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329C0E98-7D9A-4176-9160-B0A5A3E774D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2CC0C6-BC54-4428-BB14-27B5A0954694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2CC0C6-BC54-4428-BB14-27B5A0954694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2CC0C6-BC54-4428-BB14-27B5A0954694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2CC0C6-BC54-4428-BB14-27B5A0954694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6442FC86-19C8-4520-9F93-A036F7564049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6442FC86-19C8-4520-9F93-A036F7564049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6442FC86-19C8-4520-9F93-A036F7564049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6442FC86-19C8-4520-9F93-A036F7564049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DF927FC-4C44-4046-A3B2-0D1B275EC4BD} = {8CB47B6E-8478-4F54-902A-0D7EF0DFAE7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8E01585-44DA-4292-A7B4-BE0B2D933396}
+	EndGlobalSection
+EndGlobal
